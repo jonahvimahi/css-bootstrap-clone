@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+.top{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 77vh;
+	width: auto;
+	background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+}
+.welcome{
+    margin: 0px 0px 32px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+}
+.greeting{
+    text-transform: uppercase;
+    margin: 0px 0px 64px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: white
+}
+.tell-me-btn{
+    border-radius: 6px;
+    padding: 20px 40px;
+    background-color: #ffc800;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+.services{
+    padding: 96px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.services h2{
+    color: black;
+    font-family: 'Monsterrat', sans-serif;
+    margin: 0px 0px 16px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+.services h3{
+    color: #6c757d;
+    font-size: 16px;
+    font-style: italic;
+}
+
+nav{
+    background-color: #212529;
+    padding: 16px 0px;
+    line-height: 24px;
+    text-align: start;
+    font-size: 16px;
+    font-weight: 400;
+}
+nav ul{
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    vertical-align: baseline;
+    margin: 0px 0px 0px 622.281px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+nav div{
+    margin: 0px 107.5px;
+    padding: 0px 12px;
+}
+nav a{
+    padding: 8px;
+    letter-spacing: .95px;
+    text-align: left;
+}
+
+/* https://startbootstrap.github.io/startbootstrap-agency/assets/img/navbar-logo.svg */
